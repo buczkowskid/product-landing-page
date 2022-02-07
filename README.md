@@ -1,6 +1,6 @@
 # Product-Landing-Page
 
-This landing page was create using HTML, CSS and Vue.js 
+This landing page was created using HTML, CSS and Vue.js 
 
 
 
