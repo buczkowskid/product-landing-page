@@ -2,13 +2,13 @@
 	<section class="spec">
 		<div class="spec-container">
 			<table class="spec-table">
-				<!-- Added space for first column -->
 				<thead>
 					<tr>
 						<td><h2 class="spec-heading">Specyfikacja</h2></td>
 					</tr>
 				</thead>
 				<tbody>
+					<!-- Added space for first column -->
 					<col class="spec-col-one" />
 					<tr>
 						<td>Procesor</td>
@@ -123,7 +123,7 @@
 			<div class="spec-info-img">
 				<h2 class="spec-heading">Specyfikacja</h2>
 				<img
-					src="../assets/product-5.png"
+					src="../assets/images/products/product-5.png"
 					alt="Zdjęcie pokazujące wszystkie złącza w laptopie Lenovo YogaS740"
 					class="spec-img"
 				/>
@@ -236,6 +236,16 @@ export default {};
 
 	.spec-img {
 		margin-top: 3rem;
+	}
+}
+
+@media (max-width: 320px) {
+	.spec-container {
+		padding: 0.5rem;
+	}
+
+	.spec-table {
+		font-size: 1.6rem;
 	}
 }
 </style>
