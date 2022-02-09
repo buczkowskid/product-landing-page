@@ -1,17 +1,17 @@
 <template>
 	<section class="features">
 		<div v-for="features of featuresData" :key="features.id">
-			<FeaturesItemText :featuresData="features" />
+			<FeaturesSectionText :featuresData="features" />
 		</div>
 	</section>
 </template>
 
 <script>
-import FeaturesItemText from "./FeaturesItemText.vue";
+import FeaturesSectionText from "./FeaturesSectionText.vue";
 
 export default {
 	components: {
-		FeaturesItemText,
+		FeaturesSectionText,
 	},
 	data() {
 		return {

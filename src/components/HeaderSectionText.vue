@@ -1,6 +1,6 @@
 <template>
 	<div class="text-container">
-		<div class="header-heading">
+		<div class="header-title">
 			<h1>{{ hero.title }}</h1>
 			<h2>{{ hero.subtitle }}</h2>
 		</div>
@@ -25,7 +25,7 @@ export default {
 	margin: 9rem 3.5rem 0 22rem;
 }
 
-.header-heading h1,
+.header-title h1,
 h2 {
 	font-family: "Montserrat", sans-serif;
 	font-size: 5rem;
@@ -34,7 +34,7 @@ h2 {
 	text-align: left;
 }
 
-.header-heading h2 {
+.header-title h2 {
 	font-size: 4rem;
 }
 
@@ -76,11 +76,11 @@ h2 {
 		padding: 1rem;
 	}
 
-	.header-heading h1 {
+	.header-title h1 {
 		font-size: 3rem;
 	}
 
-	.header-heading h2 {
+	.header-title h2 {
 		font-size: 2.5rem;
 	}
 

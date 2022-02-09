@@ -7,7 +7,7 @@
 				class="hero-logo"
 			/>
 			<div class="header-details">
-				<HeaderItemText :hero="hero" />
+				<HeaderSectionText :hero="hero" />
 				<img
 					src="../assets/images/products/product-6.png"
 					alt="Laptop Lenovo Yoga S740"
@@ -19,10 +19,10 @@
 </template>
 
 <script>
-import HeaderItemText from "./HeaderItemText.vue";
+import HeaderSectionText from "./HeaderSectionText.vue";
 export default {
 	components: {
-		HeaderItemText,
+		HeaderSectionText,
 	},
 
 	data() {

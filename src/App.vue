@@ -1,22 +1,22 @@
 <template>
 	<div class="wrapper">
-		<HeaderItem />
-		<FeaturesItem />
-		<SpecificationItem />
+		<HeaderSection />
+		<FeaturesSection />
+		<SpecificationSection />
 	</div>
 </template>
 
 <script>
-import HeaderItem from "./components/HeaderItem.vue";
-import FeaturesItem from "./components/FeaturesItem.vue";
-import SpecificationItem from "./components/SpecificationItem.vue";
+import HeaderSection from "./components/HeaderSection.vue";
+import FeaturesSection from "./components/FeaturesSection.vue";
+import SpecificationSection from "./components/SpecificationSection.vue";
 
 export default {
 	name: "App",
 	components: {
-		HeaderItem,
-		FeaturesItem,
-		SpecificationItem,
+		HeaderSection,
+		FeaturesSection,
+		SpecificationSection,
 	},
 };
 </script>
