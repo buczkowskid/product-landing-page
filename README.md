@@ -6,7 +6,7 @@ This landing page was created using HTML, CSS and Vue.js
 
 ## Demo
 
-productlandingpagecodechallenge.netlify.app
+https://productlandingpagecodechallenge.netlify.app
 
 
 ## Run locally
